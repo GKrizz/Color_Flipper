@@ -1,1 +1,1 @@
-JavaScript Project
+<strong>JavaScript Project</strong>
