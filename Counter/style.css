@@ -1,0 +1,35 @@
+main{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    font-size: 4em;
+    text-transform: capitalize;
+    text-align: center;
+}
+span{
+    font-size:5rem;
+    margin: 43%;
+}
+.btn{
+    font-size: 1rem;
+    display: inline;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+    cursor: pointer;
+ }
+ @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
